@@ -1,1 +1,22 @@
+.collection-title {
+    margin-top: 12px;
+    margin-bottom: 12px;
 
+    text-align: left;
+    max-width: 100%;
+}
+
+.collection-title__header {
+    font-size: 30px;
+}
+
+.collection-title__count {
+    font-weight: 500;
+    font-size: 16px;
+    color: #9E9E9E;
+}
+
+.inner-container {
+    margin-left: 12px;
+    margin-right: 12px;
+}
