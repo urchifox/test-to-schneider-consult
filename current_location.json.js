@@ -1,0 +1,1 @@
+/**/successKladr({"country":"AM","region":"Котайкская","kladr_region":"Котайкская","city":"Абовян"})
