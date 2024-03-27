@@ -66,6 +66,8 @@
     margin-top: 25px;
     margin-bottom: 25px;
 
+    display: flex;
+    flex-wrap: wrap;
     justify-content: start;
     gap: 12px;
 }
@@ -101,8 +103,13 @@
     position: fixed;
     z-index: 1001;
     bottom: 0;
-    left: 60px;
-    right: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    max-width: 1170px;
 
     display: flex;
     gap: 30px;
