@@ -161,7 +161,7 @@
     border-radius: 50%;
 
     background-color: #068DDB;
-    background-image: url("./assets2024/modile.svg");
+    background-image: url("./modile.svg");
     background-size: 20px 20px;
 }
 
@@ -172,7 +172,7 @@
     width: 34px;
     height: 30px;
 
-    background-image: url("./assets2024/whatsapp.svg");
+    background-image: url("./whatsapp.svg");
 }
 
 .contacts__item--mail::before {
@@ -181,7 +181,7 @@
     border-radius: 50%;
 
     background-color: #3E7540;
-    background-image: url("./assets2024/mail.svg");
+    background-image: url("./mail.svg");
     background-size: 20px 20px;
 }
 
