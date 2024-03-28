@@ -7,8 +7,9 @@
 }
 
 .collection-title__header {
-    margin-top: 0;
-    margin-bottom: 5px; 
+    margin-bottom: 5px !important;
+
+    display: block !important;
 
     font-size: 30px;
 }
