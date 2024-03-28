@@ -5335,32 +5335,46 @@
       </aside>
       <!-- <span class="render-time">sidebar PC end render time: 0.78</span> -->
       <div class="collection col-md-9 col-xs-12 col-sm-12">
-        <div class="category-info hidden-xs hidden-sm">
-          <div id="filter__active" class="filter__active filter__active_new">
-            <div class="filter__active-label">
-              <span class="filter__active-title">Активные фильтры:</span>
-            </div>
-            <div class="filter__active-item" id="filter__active-item-53941401" data-itemid="53941401">
-              <span class="filter__active-title">1+1=3 Третья дверь в подарок!</span>
-            </div><a href="https://www.gigant-dveri.ru/collection/dveri-mezhkomnatnye"
-              class="filter__reset filter__reset_new">Сбросить все фильтры</a>
-            <div class="filter__active-submit btn btn_min btn_orange-new" id="filter__active-submit">Применить изменения
+
+        <!-- Тестовое задание начало -->
+        <div class="collection__header">
+          <div class="product-filter page__full-mobile clearfix">
+            <form class="sort-form"
+              id="layout-options"
+              method="get"
+              action="https://www.gigant-dveri.ru/collection/dveri-mezhkomnatnye"
+              data-callibri_parse_form="true"
+            >
+              <input type="hidden" name="characteristics[]" value="53941401">
+              <div class="sort">
+                <p class="visually-hidden">Сортировать по:</p>
+                <select class="options"
+                  id="page_sort"
+                  name="order"
+                  onchange="$('#layout-options').submit();"
+                >
+                  <option value="" selected="selected">По популярности</option>
+                  <option value="price">Сначала дешевые</option>
+                  <option value="descending_price">Сначала дорогие</option>
+                </select>
+              </div>
+            </form>
+          </div>
+          <div class="category-info hidden-xs hidden-sm">
+            <div class="filter__active filter__active_new" id="filter__active">
+              <p class="visually-hidden">Активные фильтры:</p>
+              <ul class="filter__active-list">
+                <li class="filter__active-item" id="filter__active-item-53941401" data-itemid="53941401">
+                  <p class="filter__active-title">1+1=3 Третья дверь в подарок!</p>
+                </li>
+              </ul>
+              <a class="filter__reset filter__reset_new" href="https://www.gigant-dveri.ru/collection/dveri-mezhkomnatnye">Сбросить все</a>
+              <div class="filter__active-submit btn btn_min btn_orange-new" id="filter__active-submit">Применить изменения</div>
             </div>
           </div>
         </div>
-        <div class="product-filter page__full-mobile clearfix">
-          <form class="sort-form" method="get" id="layout-options"
-            action="https://www.gigant-dveri.ru/collection/dveri-mezhkomnatnye" data-callibri_parse_form="true"><input
-              type="hidden" name="characteristics[]" value="53941401">
-            <div class="sort"><b class="">Сортировать по:</b><select name="order" class="options" id="page_sort"
-                onchange="$('#layout-options').submit();">
-                <option value="" selected="selected">По популярности</option>
-                <option value="price">Сначала дешевые</option>
-                <option value="descending_price">Сначала дорогие</option>
-              </select>
-            </div>
-          </form>
-        </div>
+        <!-- Тестовое задание конец -->
+
         <div role="list" class="row catalog  " data-more="/collection/dveri-mezhkomnatnye/tretya-dver-v-podarok?page=2">
           <div class="col-md-4 col-xs-4 col-sm-3 p-0" role="listitem">
             <div class="catalog__item-container catalog__item-container-plus">
