@@ -1,3 +1,5 @@
+/* БЛОК ЗАГОЛОВКА И ЛИДА */
+
 .collection-title {
     margin-top: 12px;
     margin-bottom: 12px;
@@ -63,6 +65,8 @@
     pointer-events: none;
 }
 
+/* БЛОК КАТЕГОРИЙ */
+
 .top-filter {
     margin-top: 25px;
     margin-bottom: 20px;
@@ -99,6 +103,8 @@
     color: #FFFFFF;
     background-color: #FF8139;
 }
+
+/* БЛОК ВИДЖЕТОВ */
 
 .contacts {
     position: fixed;
@@ -203,6 +209,8 @@
 
     font-weight: 700;
 }
+
+/* БЛОК ФИЛЬТРОВ И СОРТИРОВКИ */
 
 .collection__header {
     margin-left: -10px;
@@ -353,6 +361,8 @@
     color: #FFFFFF;
     background-color: #FF8139;
 }
+
+/* ХЭЛПЕРЫ */
 
 .inner-container {
     margin-left: 12px;
