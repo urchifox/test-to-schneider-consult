@@ -26,11 +26,11 @@ const formatDate = (date) => {
     return `${day}.${month}.${year}`;
 }
 
-const init = () => {
+const initPagination = () => {
     document.addEventListener('DOMContentLoaded', () => {
         elements.forEach(element => {element.textContent *= 2});
         elements[0].textContent += ` ${formatDate(getClosestDay(today, TARGET_DAY))}`;
     });
 }
 
-export {init}
+initPagination();

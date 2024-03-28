@@ -11,10 +11,10 @@ const onButtonClick = () => {
     button.textContent = (button.textContent === buttonText.hide ? buttonText.show : buttonText.hide);
 }
 
-const init = () => {
+const initCollectionTitle = () => {
     button.textContent = buttonText.show;
     button.style.setProperty('--initial-width', `${button.clientWidth}px`);
     button.addEventListener('click', onButtonClick);
 }
 
-export {init};
+initCollectionTitle();
